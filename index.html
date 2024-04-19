@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Materialize</title>
+
+    <style>
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .secao {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .secao p {
+            max-width: 500px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="card-panel deep-orange darken-2 grey-text text-lighten-5">
+        <h1>Projeto Materialize</h1>
+    </header>
+
+    <main>
+        <div class="secao">
+            <div>
+                <h2>Seção 1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias illum perferendis maxime nihil porro repellat inventore, excepturi incidunt corporis sapiente corrupti, nisi asperiores sint quod aliquam ipsa dolorum voluptatum expedita!</p>
+            </div>
+                <div>
+                    <h2>Seção 2</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias illum perferendis maxime nihil porro repellat inventore, excepturi incidunt corporis sapiente corrupti, nisi asperiores sint quod aliquam ipsa dolorum voluptatum expedita!</p>
+                </div>
+                <div>
+                    <h2>Seção 3</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias illum perferendis maxime nihil porro repellat inventore, excepturi incidunt corporis sapiente corrupti, nisi asperiores sint quod aliquam ipsa dolorum voluptatum expedita!</p>
+                </div>
+        </div>
+
+        <div>
+            <h2>Carrossel</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="download.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="gato.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="gatoo.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="images.jpeg"></a>
+              </div>
+        </div>
+
+        <div class="row">
+            <h2>Formulário de Contato</h2>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Nome" id="first_name" type="text" class="validate">
+                        <label for="first_name"></label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="E-mail" id="email" type="email" class="validate">
+                        <label for="email"></label>
+                    </div>
+                    <a class="waves-effect waves-light btn">Enviar</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
